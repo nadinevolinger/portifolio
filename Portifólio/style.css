@@ -127,6 +127,22 @@ body {
 }
 
 .linkedin {
-   
+   height: 64px;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
 }
 
+.github {
+    height: 64px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.email {  
+    height: 64px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
