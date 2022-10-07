@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: #0E0E0E; 
+}
+
+
+.header {
+    position: static;
+    width: 100%;
+    height: 11rem;
+    background: #141414;
+    margin-bottom: 3rem;
+}
+
+.perfil {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    left: 8%;
+    top: 3%;
+    bottom: 3%;
+    border-radius: 60%;
+}
+
+.title {
+    position: absolute;
+    left: 20%;
+    top: 14%;
+    font-size: 36px;
+    color: #FFFFFF;
+    background-color: #141414;
+}
+
+.left,.right {
+    height: 100%;
+    width: 50%;
+    position:fixed; 
+    z-index: 1;
+    top: 30%;
+    overflow-x: hidden;
+    padding-top: 6%;
+}
+
+.content {
+    width: 70rem;
+    height: 25rem;
+    margin: auto;
+    display: flex;
+    border: solid white;
+}
+
+.skills,.sobre {
+    margin: 1%;
+    font-size: 25px;
+    color:#E41818;
+}
+
+.sobre {
+    justify-content: flex-end;
+    margin: 1%;
+    font-size: 25px;
+    color:#E41818;
+}
+
+.icons {
+    padding-top: 7%;
+    margin-left: 1%;
+}
+
+.one,.two {
+    width: 2rem;
+    height: 2rem;
+    padding: 1.5rem;
+}
+
+.html,.css,.js {
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+}
+/*
+.horizontal {
+    position: absolute;
+    width: 55%;
+    height: 0%;
+    left: 25%;
+    margin-top: 25%;
+    border: 0.1rem solid #E41818;
+    background-color: #E41818;
+}
+
+.vertical {
+    position: absolute;
+    width: 40%;
+    height: 0%;
+    margin-top: 25%;
+    border: 0.1rem solid #E41818;
+    transform: rotate(90deg);
+    background-color: #E41818;
+}
+
+
+.right {
+    right: 0;
+}
+
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 1rem;
+    background: #141414;
+}
+
+.linkedin,.github,.email {
+    height: 10%;
+    width: 10%;
+    right: 15%;
+}
